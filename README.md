@@ -2,7 +2,9 @@
 Alt Rails devise login/auth engine for Rails
 
 ## Usage
-How to use my plugin.
+In main app config/routes.rb
+
+mount ConnectBy::Engine, at: "/a"  #### alter route to suit
 
 ## Installation
 Add this line to your application's Gemfile:
